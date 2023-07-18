@@ -181,7 +181,7 @@ nav a {
 .feature {
   display: flex;
   gap: 30px;
-  margin: 50px 0;
+  margin: 50px 0 100px;
 }
 .feature-content {
   width: 40%;
@@ -222,4 +222,39 @@ nav a {
   position: absolute;
   left: 10%;
   bottom: -15%;
+}
+
+/* Games Category Style  */
+.games-category {
+  width: 90%;
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.games-category .category {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  transition: all 0.25s linear;
+}
+.games-category .category:hover {
+  border-radius: 50px;
+  border: 1px solid var(--primary-colour);
+  color: red;
+}
+.games-category .category:hover p {
+  color: var(--primary-colour);
+  transition: all 0.25s linear;
+}
+.games-category .category p {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.games-category .category img {
+  width: 50px;
 }
