@@ -5,6 +5,20 @@
   font-family: "Work Sans", sans-serif;
   --primary-colour: #ff42a5;
 }
+.btn-primary {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--primary-colour);
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+header {
+  height: 100vh;
+}
 /* Navbar Style  */
 nav {
   padding: 18px 170px;
@@ -57,4 +71,66 @@ nav a {
 }
 .nav-follow img {
   width: 25px;
+}
+
+/* Banner Section  */
+.banner {
+  display: flex;
+}
+.banner-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/Group\ 14.png);
+  background-size: 100%;
+}
+.banner-content p {
+  text-transform: uppercase;
+  color: #0b0223;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+.banner-content h1 {
+  font-size: 5.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-content li {
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  list-style: none;
+}
+.banner-content i {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.banner-content .banner-btns {
+  display: flex;
+  gap: 40px;
+}
+.banner-content .btn {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #4ec5f7;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 80%;
 }
