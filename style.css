@@ -16,9 +16,6 @@
   cursor: pointer;
   border-radius: 40px;
 }
-header {
-  height: 100vh;
-}
 /* Navbar Style  */
 nav {
   padding: 18px 170px;
@@ -133,6 +130,49 @@ nav a {
 }
 .banner-img img {
   width: 80%;
+  height: 100%;
+}
+
+/* About Style  */
+.about {
+  padding: 50px 180px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 20px;
+  background-color: #fff9fc;
+}
+.about-img {
+  width: 60%;
+}
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+}
+.about-content h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-content p {
+  color: #534c64;
+  text-align: right;
+  font-size: 0.9rem;
+  /* line-height: 30px; */
+}
+.about-content h5 {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* Games Collection Style  */
