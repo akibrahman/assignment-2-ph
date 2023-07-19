@@ -78,6 +78,39 @@
     margin-top: 0px;
     font-size: 1rem;
   }
+  .feature {
+    flex-direction: column;
+    gap: 40px;
+    margin: 50px;
+  }
+  .feature-content {
+    width: 100%;
+    align-items: center;
+  }
+  .feature-content h1 {
+    text-align: center;
+  }
+  .feature-content span {
+    font-size: 2.4rem;
+  }
+  .feature-content p {
+    text-align: center;
+    width: 80%;
+    line-height: 15px;
+  }
+  .feature-img {
+    width: 100%;
+    position: relative;
+  }
+  .feature-img img:nth-child(1) {
+    width: 80%;
+    padding-left: 50px;
+  }
+  .feature-img img:nth-child(2) {
+    width: 150px;
+    left: -7%;
+    bottom: -20%;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
