@@ -1,5 +1,36 @@
 /*Mobile View*/
 @media screen and (max-width: 576px) {
+  * {
+    font-size: 11px;
+  }
+  nav {
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+  }
+  nav .menu {
+    flex-direction: column;
+    gap: 40px;
+  }
+  nav .menu ul {
+    flex-direction: column;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 80%;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
