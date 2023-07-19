@@ -130,7 +130,7 @@
   /* Footer Section Style  */
   footer {
     padding: 50px 0px;
-    gap: 20px;
+    gap: 40px;
   }
   .footer-logo {
     display: flex;
@@ -155,7 +155,8 @@
     text-align: center;
   }
   .social-links {
-    gap: 60px;
+    gap: 30px;
+    column-gap: 50px;
     flex-wrap: wrap;
     width: 60%;
     justify-content: center;
@@ -166,7 +167,7 @@
   .importants-links {
     justify-content: center;
     width: 60%;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
   }
   .importants-links li {
@@ -180,18 +181,183 @@
   }
 }
 
-/*Small devices (landscape phones, 577px and up)*/
-@media screen and (min-width: 576px) and (max-width: 767px) {
-}
+/*Tablet View*/
+@media screen and (min-width: 576px) and (max-width: 800px) {
+  * {
+    font-size: 12px;
+  }
+  nav {
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    padding: 30px 0;
+    gap: 50px;
+  }
 
-/*Medium devices (tablets, 768px and up)*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
-}
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .about {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .about-img img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .about-content {
+    width: 100%;
+    align-items: center;
+  }
+  .about-content p {
+    width: 65%;
+    text-align: center;
+  }
 
-/*Large devices (desktops, 992px and up)*/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-}
+  .games-collection h1,
+  .games-collection span {
+    font-size: 2.4rem;
+  }
+  .games-collection p {
+    font-size: 1rem;
+  }
+  .games-cards {
+    margin-top: 30px;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .games-cards .card {
+    margin-top: 0px;
+  }
+  .games-cards .card:hover .img-box::before {
+    height: 87%;
+  }
+  .games-cards img {
+    width: 100%;
+  }
+  .games-cards p {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .feature {
+    flex-direction: column;
+    gap: 40px;
+    margin: 50px;
+  }
+  .feature-content {
+    width: 100%;
+    align-items: center;
+  }
+  .feature-content h1 {
+    text-align: center;
+  }
+  .feature-content span {
+    font-size: 2.4rem;
+  }
+  .feature-content p {
+    text-align: center;
+    width: 80%;
+    line-height: 15px;
+  }
+  .feature-img {
+    width: 80%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .feature-img img:nth-child(1) {
+    width: 80%;
+    padding-left: 50px;
+  }
+  .feature-img img:nth-child(2) {
+    width: 200px;
+    left: 0;
+    bottom: -8%;
+  }
 
-/*X-Large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1200px) {
+  .games-category {
+    width: 100%;
+    margin: 120px 0 80px;
+    gap: 20px;
+  }
+  .games-category .category {
+    gap: 10px;
+  }
+  .games-category .category p {
+    font-size: 0.9rem;
+  }
+  .games-category .category img {
+    width: 50px;
+  }
+
+  /* Footer Section Style  */
+  footer {
+    padding: 50px 0px;
+    gap: 70px;
+  }
+  .footer-logo {
+    display: flex;
+    gap: 10px;
+  }
+  .footer-logo h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  .footer-logo span {
+    font-size: 2.4rem;
+    color: var(--primary-colour);
+  }
+  .footer-menu {
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+  }
+  .footer-menu li {
+    width: 100px;
+    text-align: center;
+  }
+  .social-links {
+    gap: 30px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+  }
+  .social-links i {
+    font-size: 2.8rem;
+  }
+  .importants-links {
+    justify-content: center;
+    width: 60%;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .importants-links li {
+    width: 100px;
+    text-align: center;
+  }
+  .copy {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+  }
 }
