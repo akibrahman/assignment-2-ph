@@ -184,6 +184,7 @@ nav a {
   text-align: center;
 }
 .games-collection span {
+  font-size: 2.8rem;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;

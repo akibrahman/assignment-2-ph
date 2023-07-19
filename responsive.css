@@ -51,6 +51,33 @@
     width: 65%;
     text-align: center;
   }
+
+  .games-collection h1,
+  .games-collection span {
+    font-size: 2.4rem;
+  }
+  .games-collection p {
+    font-size: 1rem;
+  }
+  .games-cards {
+    margin-top: 30px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .games-cards .card {
+    margin-top: 0px;
+  }
+  .games-cards .card:hover .img-box::before {
+    height: 87%;
+  }
+  .games-cards img {
+    width: 100%;
+  }
+  .games-cards p {
+    margin-top: 0px;
+    font-size: 1rem;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
