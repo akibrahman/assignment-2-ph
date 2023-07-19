@@ -146,9 +146,9 @@
     color: var(--primary-colour);
   }
   .footer-menu {
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     justify-content: center;
   }
   .footer-menu li {
