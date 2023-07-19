@@ -114,7 +114,7 @@
 
   .games-category {
     width: 100%;
-    margin: 100px 0 80px;
+    margin: 120px 0 80px;
     gap: 10px;
   }
   .games-category .category {
@@ -125,6 +125,58 @@
   }
   .games-category .category img {
     width: 40px;
+  }
+
+  /* Footer Section Style  */
+  footer {
+    padding: 50px 0px;
+    gap: 20px;
+  }
+  .footer-logo {
+    display: flex;
+    gap: 10px;
+  }
+  .footer-logo h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  .footer-logo span {
+    font-size: 2.4rem;
+    color: var(--primary-colour);
+  }
+  .footer-menu {
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+  }
+  .footer-menu li {
+    width: 100px;
+    text-align: center;
+  }
+  .social-links {
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+  }
+  .social-links i {
+    font-size: 2.8rem;
+  }
+  .importants-links {
+    justify-content: center;
+    width: 60%;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .importants-links li {
+    width: 100px;
+    text-align: center;
+  }
+  .copy {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
   }
 }
 
