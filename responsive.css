@@ -31,6 +31,26 @@
   .banner-content {
     width: 80%;
   }
+  .about {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .about-img img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .about-content {
+    width: 100%;
+    align-items: center;
+  }
+  .about-content p {
+    width: 65%;
+    text-align: center;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
