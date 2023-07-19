@@ -111,6 +111,21 @@
     left: -7%;
     bottom: -20%;
   }
+
+  .games-category {
+    width: 100%;
+    margin: 100px 0 80px;
+    gap: 10px;
+  }
+  .games-category .category {
+    gap: 5px;
+  }
+  .games-category .category p {
+    font-size: 0.7rem;
+  }
+  .games-category .category img {
+    width: 40px;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
