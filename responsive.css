@@ -29,7 +29,8 @@
     margin: 0 auto;
   }
   .banner-content {
-    width: 80%;
+    width: 100%;
+    padding: 10px 0;
   }
   .about {
     padding: 10px;

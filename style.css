@@ -154,7 +154,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 15px;
+  gap: 20px;
 }
 .about-content h1 {
   font-size: 2.4rem;
@@ -340,6 +340,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
 .footer-logo {
   display: flex;
   gap: 10px;
@@ -355,16 +359,37 @@ footer {
   display: flex;
   gap: 60px;
 }
+.footer-menu a {
+  transition: color 0.2s linear;
+}
+.footer-menu a:hover {
+  color: var(--primary-colour);
+}
 .social-links {
   display: flex;
   gap: 40px;
   font-size: 2rem;
+}
+.social-links i {
+  transition: all 0.2s linear;
+}
+.social-links i:hover {
+  color: var(--primary-colour);
+  transform: scale(1.2);
 }
 .importants-links {
   display: flex;
   gap: 60px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
+}
+.importants-links a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  transition: color 0.2s linear;
+}
+.importants-links a:hover {
+  color: var(--primary-colour);
 }
 .copy {
   color: rgba(255, 255, 255, 0.6);
